@@ -1,0 +1,70 @@
+@media (max-width: 1614px){
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr))
+    }
+}
+@media (max-width: 1200px){
+    header {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media (max-width: 1024px){
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr))
+    }
+}
+@media (max-width: 768px){
+    header {
+        width: 155px;
+        height: 155px;
+        left: -9px;
+    }
+    .boxIzq .box-text,
+    .boxDcha .box-text {
+        position: relative;
+        top: -12vh;
+        width: 90%;
+        margin: 0 auto;
+        left: inherit;
+        right: inherit;
+        padding: 15px;
+    }
+    .boxIzq .burbuja-contacto,
+    .boxDcha .burbuja-contacto {
+        margin: 0 auto;
+        left: inherit;
+        right: inherit;
+    }
+    .burbuja-contacto {
+        position: relative;
+    }
+    [class^="sectionImg"]{
+        position: initial;
+        height: inherit;
+    }
+    [class^="sectionImg"]::before {
+        height: 60vh;
+        background-attachment: inherit;
+    }
+    h1 {
+        font-size: calc(6.5vw + 1em);
+        padding-left: calc(2vw + 1em);
+        line-height: 0.8em;
+    }
+    h1 span {
+        padding-left: calc(10vw + 1em);
+    }
+    h2 {
+        font-size: calc(1.8vw + 1em);
+    }
+    .section-standard {
+        padding-top: inherit;
+    }
+    .section-standard h1 {
+        width: inherit;
+    }
+    section:nth-of-type(2) .burbuja-contacto {
+        display: none;
+    }
+}

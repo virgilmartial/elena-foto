@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--GoogleAnalitycs-->
+    <title>Fotografa de Bebés en Madrid</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=1.5">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Fotógrafía de bebes en estudio">
+    <meta name="apple-mobile-web-app-title" content="Elena Casta&ntilde;o">
+    <meta name="application-name" content="Elena Casta&ntilde;o">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-config" content="favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="author" content="Diseñador Web ksuso">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaquieries.css">
+</head>
+<body>
+<div class="body">
+    <header>
+        <img src="img/Logo-completo-ElenaC.svg" alt="Logo Elena Castaño Fotografía familiar e infantil">
+    </header>
+    <button id="btnMenu" class="btnMenu" onclick="abrirMenu()"><span></span></button>
+    <nav>
+        <ul>                                                     
+            <li><a onmouseover="salFoto1()" onmouseleave="sacarFoto1()" href="#">Fotografía New Born</a></li>
+            <li><a onmouseover="salFoto2()" onmouseleave="sacarFoto2()" href="#">Fotografía Bebés</a></li>
+            <li><a href="#">Fotografía Infantil</a></li>
+            <li><a href="#">Fotografía Familiar</a></li>
+            <li><a href="#">Fotografía Embarazadas</a></li>
+            <li><a href="#">Fotografía Bautizos</a></li>
+            <li><a href="#">Fotografía Comuniones</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <div id="fotoMenu" class="fotoMenu"><img id="imgFotoMenu" src="img/fotografia-newborn-index1.jpg" alt=""></div>
+    </nav>
+    <section class="sectionImg-bebes1  boxIzq">
+        <div class="box-text">
+            <h1>Fotógrafa <span>Profesional</span></h1>
+            <h2>Especialista en fotografía NewBorn y Fotografía Infantil en Madrid</h2>
+            <p>La llegada de un bebé al mundo es algo maravilloso y merece ser recordado para siempre con imágenes que perduren en el tiempo. </p>
+            <p>Esos primeros días son complicados, estáis en plena adaptación, sin poder descansar y a la vez en proceso de recuperación, pero sin duda os alegraréis infinitamente de tener ese recuerdo tan especial de vuestro bebé.</p>
+            <p>Lo ideal es reservar vuestra sesión antes de dar a luz para aseguraros el día y no quedaros sin disponibilidad.</p>
+        </div>
+        <div class="burbuja-contacto">
+            <span>Llámame</span>
+            <a href="tel:+34602486639">602 486 639</a>
+            <span>Email</span>
+            <span>elena@audiovisual.com</span>
+            <a class="btn-primary" href="#formulario">Reserva tu Sesión</a>
+        </div>
+    </section>
+    <section class="sectionImg-bebes2  boxDcha">
+        <div class="box-text">
+            <h1>Mi Estudio <span>de Fotografía</span></h1>
+            <h2>Especialista en fotografía NewBorn y Fotografía Infantil en Madrid</h2>
+            <p>La sesión de fotos de recién nacido se realiza dentro de los primeros diez días de vida del bebé. En ese periodo de tiempo duermen muchas horas y tienen una flexibilidad que van perdiendo con el paso de los días.</p> 
+            <p>Los reportajes los solemos realizar en nuestro estudio fo tográfico, pues está totalmente acondicionado y preparado para la seguridad de vuestro bebé. Además de ofreceros gran variedad de decorados, ropita a medida, atrezzo y todo tipo de accesorios.</p>
+            <p>Durante la sesión haremos algunas fotos con los papás y con los hermanitos.</p>
+        </div>
+        <div class="burbuja-contacto">
+            <span>Llámame</span>
+            <a href="tel:+34602486639">602 486 639</a>
+            <span>Email</span>
+            <span>elena@audiovisual.com</span>
+            <a class="btn-primary" href="#formulario">Reserva tu Sesión</a>
+        </div>
+    </section>
+    <section class="section-standard">
+        <h1>Galería <span>Fotos NewBorn</span></h1>
+        <div class="grid">
+            <div><img src="/img/gridimg/2.jpg" alt=""></div>
+            <div class="x2row"><img src="/img/gridimg/1b.jpg" alt=""></div>
+            <div><img src="/img/gridimg/7l.jpg" alt=""></div>
+            <div><img src="/img/gridimg/14.jpg" alt=""></div>
+            <div><img src="/img/gridimg/9b.jpg" alt=""></div>
+            <div class="x2row"><img src="/img/gridimg/8.jpg" alt=""></div>
+            <div class="x2row"><img src="/img/gridimg/5l.jpg" alt=""></div>
+            <div><img src="/img/gridimg/11.jpg" alt=""></div>
+            <div><img src="/img/gridimg/17.jpg" alt=""></div>
+        </div>
+    </section>
+    <section class="section-standard">
+        <h2 class="txtc">Reserva tu sesión o pide más Información</h2>
+        <form action="">
+            <div class="input-search">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+            </div>
+            <input type="email" id="email" class="email" name="email" placeholder="Email">
+
+            <input type="tel" id="tlf" name="tlf" placeholder="Teléfono">
+            <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+            <input type="date" id="fecha" name="fecha" placeholder="Día de preferencia">
+            <input type="checkbox" id="avisolegal" name="avisolegal">
+            <label for="avisolegal">Acepto Política de privacidad y aviso legal</label>
+            <div class="txtc">
+                <input class="btn-primary" type="button" value="Enviar">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <h4>Etudio de Fotografía Madrid <br> Elena Castaño</h4>
+        <div class="flexibilizator">
+            <div>
+                <h5>Dirección:</h5>
+                <address>Avda. del Manzanares, 166 - Entreplanta B <br> 28019 Madrid</address>
+            </div>
+            <div>
+                <h5>Contacto:</h5>
+                <span>bodasybebes@gmail.com</span><br>
+                <a href="tel:+34653626967">653.626.967</a>
+            </div>
+            <div>
+                <h5>Horario:</h5>
+                <p>De Lunes a Domingo. <br> Sólo con cita previa.</p>
+            </div>
+        </div>
+        <div class="txtc">
+            <a href=""><img src="iconos/facebook.svg" alt=""></a>
+            <a href=""><img src="iconos/twitter.svg" alt=""></a>
+            <a href=""><img src="iconos/instagram.svg" alt=""></a>
+            <a href=""><img src="iconos/whatsapp.svg" alt=""></a>
+        </div>
+        <span>@Copyright - Elena Castaño - Todos los derechos reservados - <a href="">Aviso legal y política de privacidad</a>  - <a href="">Política de Cookies</a></span>
+    </footer>
+</div>
+<script>
+    
+    var btnMenu = document.querySelector("#btnMenu")
+    var imgFotoMenu = document.querySelector("#imgFotoMenu")
+    console.dir(window)
+    console.dir(btnMenu)
+    console.dir(imgFotoMenu)
+
+    var estadoMenu = 0
+
+    console.log("El menu esta en: " + estadoMenu)
+
+    function abrirMenu(){
+
+        document.querySelector("#btnMenu").classList.toggle("menu-open");
+        document.querySelector("#btnMenu").classList.toggle("btnX");
+
+        if(estadoMenu == 0){
+            // document.querySelector("#btnMenu").classList.add("menu-open");
+            // document.querySelector("#btnMenu").classList.add("btnX");
+            document.querySelector("nav").style.left = "25%";
+            document.querySelector("body").style.overflow = "hidden";
+            estadoMenu = 1;
+            console.log("menu abierto")
+        }else {
+            // document.querySelector("#btnMenu").classList.remove("menu-open");
+            // document.querySelector("#btnMenu").classList.remove("btnX");
+            document.querySelector("nav").style.left = "-50%";
+            document.querySelector("body").style.overflow = "initial";
+            estadoMenu = 0;
+            console.log("menu cerrado")
+        }
+        
+        console.log("El menu esta en: " + estadoMenu);
+    }
+
+    function salFoto1(){
+        document.querySelector("#fotoMenu").style.transform = "scale(1)"
+        imgFotoMenu.src = "http://127.0.0.1:5500/img/fotografia-newborn-index1.jpg"
+    }
+    function sacarFoto1(){
+        document.querySelector("#fotoMenu").style.transform = "scale(0)"
+    }
+
+    function salFoto2(){
+        document.querySelector("#fotoMenu").style.transform = "scale(1)"
+        imgFotoMenu.src = "http://127.0.0.1:5500/img/estudio-fotografia-madrid.jpg"
+
+    }
+    function sacarFoto2(){
+        document.querySelector("#fotoMenu").style.transform = "scale(0)"
+    }
+
+
+</script>
+</body>
+</html>
